@@ -1,0 +1,59 @@
+name: edukosso
+description: Application des étudiants de licence 3 informatique. by prodigit
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: linux/fonts/Avenir/AvenirNextLTPro-Bold.otf
+        - asset: linux/fonts/Avenir/AvenirNextLTPro-Regular.otf
+        - asset: linux/fonts/Avenir/AvenirNextLTPro-Italic.otf
+    - family: Exo2
+      fonts:
+        - asset: linux/fonts/exo-2/Exo2-Black.otf
+        - asset: linux/fonts/exo-2/Exo2-BlackItalic.otf
+        - asset: linux/fonts/exo-2/Exo2-Bold.otf
+        - asset: linux/fonts/exo-2/Exo2-BoldItalic.otf
+        - asset: linux/fonts/exo-2/Exo2-ExtraBold.otf
+        - asset: linux/fonts/exo-2/Exo2-ExtraBoldItalic.otf
+        - asset: linux/fonts/exo-2/Exo2-Italic.otf
+        - asset: linux/fonts/exo-2/Exo2-Light.otf
+        - asset: linux/fonts/exo-2/Exo2-Medium.otf
+        - asset: linux/fonts/exo-2/Exo2-Regular.otf
+        - asset: linux/fonts/exo-2/Exo2-Thin.otf
+    - family: Curve
+      fonts:
+        - asset: linux/fonts/learning_curve/True/curve_bold.ttf
+        - asset: linux/fonts/learning_curve/True/curve_regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: linux/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: linux/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: linux/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: linux/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: linux/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: linux/fonts/Roboto/Roboto-Black.ttf
